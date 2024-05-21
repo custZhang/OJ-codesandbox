@@ -1,0 +1,23 @@
+server:
+  port: 8102
+redisson:
+  host: localhost
+  port: 6379
+  database: 2
+  password: zsp
+knife4j:
+  enable: true
+  openapi:
+    title: Knife4j文档
+    description: 代码沙箱的文档
+    # aaa"
+    concat: 和风
+    version: v4.0
+    terms-of-service-url: https://stackoverflow.com/
+    group:
+      test1:
+        group-name: 默认分组
+        api-rule: package
+        api-rule-resources:
+          - com.zsp.zspojcodesandbox.controller
+
